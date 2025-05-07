@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# Environment
+.env
+.venv
+env/
+
+# Temp files
+temp_uploads/
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+docker-compose.override.yml
