@@ -5,3 +5,12 @@ python-dotenv
 sqlalchemy
 databases[postgresql]
 redis
+
+# Image Processing
+torch==2.5.1
+torchvision>=0.15.2
+ultralytics==8.0.196  # YOLOv8
+transformers>=4.30.2  # CLIP
+segment-anything>=1.0  # SAM
+opencv-python-headless>=4.7.0
+pillow>=10.0.0
