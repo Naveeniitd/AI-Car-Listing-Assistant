@@ -4,7 +4,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![Car Listing Demo](https://via.placeholder.com/800x400.png?text=AI+Car+Listing+Demo+Image) <!-- Replace with actual image -->
+![Car Listing Demo](design_flow.png) <!-- Replace with actual image -->
 
 An intelligent system that helps car dealers generate optimized vehicle listings using multimodal AI analysis.
 
