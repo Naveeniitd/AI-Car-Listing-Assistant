@@ -6,6 +6,8 @@ RUN apt-get update \
         libgl1 libglib2.0-0 libsm6 libxrender1 libxext6 wget \
  && rm -rf /var/lib/apt/lists/*
 
+# Add FAISS build requirements
+RUN pip install faiss-cpu --no-cache-dir
 WORKDIR /app
 
 # 2) Copy & install Python deps

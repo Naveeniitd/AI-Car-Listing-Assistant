@@ -14,3 +14,12 @@ transformers>=4.30.2  # CLIP
 segment-anything>=1.0  # SAM
 opencv-python-headless>=4.7.0
 pillow>=10.0.0
+
+# LLM & Chat
+langchain>=0.1.0
+langchain-community>=0.0.11
+faiss-cpu>=1.7.4  # For RAG
+openai>=1.0.0  # If using GPT-4
+huggingface_hub>=0.19.0  # For Mistral
+langchain-openai>=0.0.8
+sentence-transformers
